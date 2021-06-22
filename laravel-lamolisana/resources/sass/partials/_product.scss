@@ -1,0 +1,14 @@
+main.products{
+    div{
+      display: flex;
+      flex-wrap: wrap;
+      div {
+          flex-basis: calc(100% / 3);
+      }
+
+    }
+    text-align: center;
+    // attenzione al percorso della url
+    background-image: url("../img/fondo-pag-speciali.jpg");
+    padding: 4rem 1rem;
+  }

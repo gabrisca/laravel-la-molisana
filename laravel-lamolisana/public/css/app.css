@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+header ul a {
+  text-decoration: none;
+  padding: 1rem;
+  transition: background 0.4s;
+}
+header ul a:hover, header ul a.active {
+  background: rgba(0, 45, 117, 0.4);
+}
+
+footer .cols {
+  display: flex;
+  padding: 3rem 1rem;
+}
+footer .cols a,
+footer .cols div {
+  flex-basis: calc(100% / 3);
+}
+footer .cols h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #002D75;
+}
+footer .cols a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+main.products {
+  text-align: center;
+  background-image: url("../img/fondo-pag-speciali.jpg");
+  padding: 4rem 1rem;
+}
+main.products div {
+  display: flex;
+  flex-wrap: wrap;
+}
+main.products div div {
+  flex-basis: calc(100% / 3);
+}

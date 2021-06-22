@@ -1,0 +1,18 @@
+header{
+    text-align: center;
+    margin-bottom: 4rem;
+    ul{
+      @include center();
+      margin: 2rem 0;
+      a{
+        text-decoration: none;
+        padding: 1rem;
+        transition: background 0.4s;
+        &:hover,
+        &.active{
+          background: rgba($brand-color, .4)
+        }
+
+      }
+    }
+  }

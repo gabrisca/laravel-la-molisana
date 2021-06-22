@@ -1,0 +1,10 @@
+// lavora sempre su questo file non su app.css
+
+// includo i differenti file scss
+@import 'partials/vars';
+@import 'partials/mixin';
+@import 'partials/general';
+@import 'partials/utilities';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/product';
